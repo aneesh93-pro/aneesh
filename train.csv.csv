@@ -1,0 +1,31 @@
+Training Dataset
+
+They are in form of these columns 
+sample_id	catalog_content	image_link	price
+
+
+sample_id,catalog_content,image_link,price
+1,"Apple iPhone 14 Pro Max 256GB - Deep Purple | Pack of 1","https://m.media-amazon.com/images/I/71XfHPR36-L.jpg",139999
+2,"Samsung Galaxy S23 Ultra 512GB - Phantom Black | Pack of 1","https://m.media-amazon.com/images/I/71XfHPR36-L.jpg",124999
+3,"Boat Airdopes 131 Bluetooth Earbuds, 40 Hours Playback | Pack of 1","https://m.media-amazon.com/images/I/61XfHPR36-L.jpg",1299
+4,"Dell Inspiron 15 3520 Laptop, Intel i5 12th Gen, 16GB RAM, 512GB SSD | Pack of 1","https://m.media-amazon.com/images/I/81XfHPR36-L.jpg",63999
+5,"Colgate Toothpaste Strong Teeth 200g | Pack of 2","https://m.media-amazon.com/images/I/51XfHPR36-L.jpg",180
+6,"Tata Tea Premium Leaf Tea 1kg | Pack of 1","https://m.media-amazon.com/images/I/71XfHPR36-L.jpg",540
+7,"Nike Air Zoom Pegasus 40 Running Shoes, Men, Size 9 | Pack of 1","https://m.media-amazon.com/images/I/81XfHPR36-L.jpg",8999
+8,"Haldiram's Soan Papdi 250g | Pack of 3","https://m.media-amazon.com/images/I/61XfHPR36-L.jpg",240
+9,"Lenovo Tab M10 FHD 10.1-inch Tablet, 4GB RAM, 64GB Storage | Pack of 1","https://m.media-amazon.com/images/I/91XfHPR36-L.jpg",15999
+10,"Whirlpool 7kg Fully Automatic Washing Machine, Grey | Pack of 1","https://m.media-amazon.com/images/I/71XfHPR36-L.jpg",17999
+11,"Sony WH-1000XM5 Noise Cancelling Headphones | Pack of 1","https://m.media-amazon.com/images/I/81XfHPR36-L.jpg",29999
+12,"Fossil Men's Chronograph Leather Strap Watch | Pack of 1","https://m.media-amazon.com/images/I/71XfHPR36-L.jpg",8499
+13,"Samsung 55-inch Crystal UHD Smart LED TV | Pack of 1","https://m.media-amazon.com/images/I/91XfHPR36-L.jpg",44999
+14,"Puma Unisex Running Shoes, Size 8 | Pack of 1","https://m.media-amazon.com/images/I/71XfHPR36-L.jpg",3499
+15,"Canon EOS 200D DSLR Camera 18-55mm Lens | Pack of 1","https://m.media-amazon.com/images/I/91XfHPR36-L.jpg",57999
+16,"Britannia Marie Gold Biscuits 250g | Pack of 2","https://m.media-amazon.com/images/I/61XfHPR36-L.jpg",120
+17,"LG 6.5kg Semi-Automatic Top Load Washing Machine | Pack of 1","https://m.media-amazon.com/images/I/71XfHPR36-L.jpg",13499
+18,"Adidas Unisex Sports T-Shirt, Size M | Pack of 1","https://m.media-amazon.com/images/I/71XfHPR36-L.jpg",1299
+19,"HP 15s Laptop, Intel i3, 8GB RAM, 256GB SSD | Pack of 1","https://m.media-amazon.com/images/I/81XfHPR36-L.jpg",45999
+20,"Amul Butter 500g | Pack of 2","https://m.media-amazon.com/images/I/61XfHPR36-L.jpg",220
+
+
+
+ 

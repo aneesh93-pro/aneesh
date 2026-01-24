@@ -1,0 +1,24 @@
+For the Smart Product Pricing Challenge, the submission.csv must have two columns:
+
+sample_id → must match the test dataset sample_id
+
+price → the predicted price (positive float)
+
+Here’s an example submission for the 15 test products I shared earlier. The prices are dummy predictions just to show the format:
+
+sample_id	price
+T001	1299.99
+T002	1199.50
+T003	399.00
+T004	1499.00
+T005	129.99
+T006	1399.00
+T007	199.00
+T008	99.99
+T009	2499.00
+T010	329.00
+T011	1899.00
+T012	179.99
+T013	1599.00
+T014	499.00
+T015	149.99

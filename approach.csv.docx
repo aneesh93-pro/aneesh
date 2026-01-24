@@ -1,0 +1,92 @@
+Approach Document – Smart Product Pricing Challenge
+1. Problem Understanding
+
+We aim to create a machine learning model that will forecast product price based on its characteristics like catalog content, brand, and specifications. The complexity is in the interaction between these characteristics to set price.
+
+We have:
+
+Train dataset: 75,000 products with prices.
+Test dataset: 75,000 products without price labels.
+Target variable: price
+
+The model must provide predicted prices in a CSV file with the same test set IDs.
+
+2. Data Preprocessing Steps
+
+Load Dataset: Use pandas to import the train and test CSV files.
+
+Clean Text Data: Strip special characters, remove excess spaces, and normalize words from catalog_content.
+
+Feature Extraction:
+
+Use TF-IDF Vectorization to transform text data (catalog_content) into numerical features.
+
+Extract numerical hints from text (e.g., quantity, size, units like "500ml", "pack of 2").
+
+Image Data (Optional): Utilize image URLs with feature extraction via pre-trained CNN (such as MobileNet or ResNet50).
+
+Combine Features: Consolidate text-based and numerical/image-based features into a single dataset.
+
+3. Model Development
+
+Algorithm Chosen: Linear Regression, Random Forest Regressor, or XGBoost.
+
+Target Variable: price
+
+Evaluation Metric: Symmetric Mean Absolute Percentage Error (SMAPE)
+
+Training Process:
+
+Split dataset (80% training, 20% validation).
+
+Train several regression models.
+
+Tune hyperparameters via GridSearchCV.
+
+Evaluate on validation data via SMAPE.
+
+Choose the model with the lowest SMAPE score.
+
+4. Prediction and Output
+
+Load test.csv file.
+
+Utilize the same preprocessing operations as training data.
+
+Use the model trained to predict prices.
+
+Save predictions in submission.csv format:
+
+sample_id	price
+p1	499.23
+p2	1599.75
+.
+.
+
+Make sure all test IDs are covered.
+
+5. Tools and Libraries Used
+
+Python 3.x
+
+Libraries: pandas, numpy, scikit-learn, matplotlib, xgboost
+
+IDE/Notebook: Jupyter Notebook or VS Code
+
+Environment: local machine or Google Colab
+
+6. Expected Outcome
+
+A strong model that can predict the product price with minimal SMAPE error.
+
+Clean dataset, tidy code, and proper documentation.
+
+A final submission file (submission.csv) for evaluation.
+
+7. Future Improvements
+
+Add image-based feature extraction through deep learning (CNN).
+
+Implement transformer-based text embeddings (such as BERT) to enhance semantic interpretation of catalog content.
+
+Try feature scaling and high-level ensemble models for higher accuracy.
